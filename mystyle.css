@@ -1,6 +1,6 @@
 
 body{
-  font-size: 1.2vw;
+  font-size: calc(1px+1.2vw);
   background-color:rgba(221,179,255,0.1);
   margin-left: 15vw;
   margin-right: 15vw;
@@ -8,7 +8,7 @@ body{
 }
 
 h1{
-  font-size: 3vw;
+  font-size: calc(5px+3vw);
   text-align:center; 
   font-family:garamond;
   color:black;
