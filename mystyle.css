@@ -1,11 +1,14 @@
+
 body{
+  font-size: 1.2vw;
   background-color:rgba(221,179,255,0.1);
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 30px;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 1vw;
 }
 
 h1{
+  font-size: 3vw;
   text-align:center; 
   font-family:garamond;
   color:black;
@@ -53,6 +56,8 @@ a:hover{
 }
 
 img {
+  max-width: 100%; 
+  height: auto;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 4px;
