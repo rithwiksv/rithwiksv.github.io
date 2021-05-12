@@ -1,0 +1,103 @@
+body{
+  background-color:rgba(221,179,255,0.1);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+
+h1{
+  text-align:center; 
+  font-family:garamond;
+  color:black;
+}
+
+ul{
+  float: left;
+  margin-top: 25px;
+  list-style-type:none;
+  text-align:center;
+  padding:0;
+  width:100px;
+  height:100%;
+}
+
+li a{
+  display: block;
+  color: white;
+  background-color:black;
+  text-decoration:none;
+  padding: 10px 10px;
+}
+
+li a.active{
+  background-color: green;
+  color: white;
+}
+
+li a:hover:not(.active){
+  background-color:grey;
+  color:white;
+}
+
+p{ 
+  float: left;
+  color:rgba(0,0,0,1);
+}
+
+a{
+  color:rgba(95,0,51,1); 
+}
+
+a:hover{
+  color:rgb(104,3,255);
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.container {
+  position: relative;
+  width: 23%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color:black;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
