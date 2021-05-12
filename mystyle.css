@@ -1,14 +1,14 @@
 
 body{
-  font-size: calc(1px+1.2vw);
+  font-size: max(15px,1.5vw);
   background-color:rgba(221,179,255,0.1);
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   margin-top: 1vw;
 }
 
 h1{
-  font-size: calc(5px+3vw);
+  font-size: max(30px,3vw);
   text-align:center; 
   font-family:garamond;
   color:black;
@@ -16,11 +16,11 @@ h1{
 
 ul{
   float: left;
-  margin-top: 25px;
+  margin-top: 2vw;
   list-style-type:none;
   text-align:center;
   padding:0;
-  width:100px;
+  width:max(70px,7vw);
   height:100%;
 }
 
@@ -29,7 +29,7 @@ li a{
   color: white;
   background-color:black;
   text-decoration:none;
-  padding: 10px 10px;
+  padding: 1vw 1vw;
 }
 
 li a.active{
